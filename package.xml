@@ -10,4 +10,9 @@
 
   <depend>moveit_commander</depend>
   <depend>rospy</depend>
+  <depend>catkin_virtualenv</depend>
+
+  <export>
+    <pip_requirements>requirements.txt</pip_requirements>
+  </export>
 </package>
